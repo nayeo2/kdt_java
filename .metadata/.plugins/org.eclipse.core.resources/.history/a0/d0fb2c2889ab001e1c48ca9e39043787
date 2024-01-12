@@ -1,0 +1,14 @@
+package overload;
+
+public class OverloadExample {
+	public static void main(String[] args) {
+		
+		Human h1 = new Human();
+		h1.age=18;
+		System.out.println(h1);
+		
+		Human h2 = new Human(String n, int a);
+		System.out.println(h2);
+	}
+
+}

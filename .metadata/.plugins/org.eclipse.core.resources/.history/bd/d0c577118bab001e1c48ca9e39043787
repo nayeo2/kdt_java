@@ -1,0 +1,16 @@
+package overload;
+
+public class Cat {
+	public String name;
+	public String kind;
+
+	public Cat() {
+		name = "야옹아 이리와";
+		kind = "고등어";
+	}
+	
+	public Cat(String n) {
+		name = n;
+		kind = "치즈";
+	}
+}

@@ -1,0 +1,8 @@
+package override;
+
+public class Programmer extends Human{
+	public int salary;
+	public String rank;
+	
+
+}

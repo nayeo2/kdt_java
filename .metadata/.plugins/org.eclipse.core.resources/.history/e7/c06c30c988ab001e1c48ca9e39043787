@@ -1,0 +1,10 @@
+package overload;
+
+public class OverloadExample {
+	public static void main(String[] args) {
+		
+		Human H1 = new Human();
+		
+	}
+
+}

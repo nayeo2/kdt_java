@@ -1,0 +1,13 @@
+package overload;
+
+public class Cat {
+	public String name;
+
+	public Cat() {
+		name = "XX아 이리와";
+	}
+	
+	public Cat(String n) {
+		name = n;
+	}
+}
