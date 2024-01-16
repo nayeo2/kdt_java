@@ -1,6 +1,7 @@
 package inheritance;
 
 public class InheritanceExample {
+
 	public static void main(String[] args) {
 		
 		Student st1 = new Student();
@@ -12,9 +13,8 @@ public class InheritanceExample {
 		Salaryman sm1 = new Salaryman();
 		sm1.name = "나직장";
 		sm1.age = 40;
-		sm1.salary=8000;
-		
-		System.out.println(st1);
+		sm1.salary = 8000;
+
 	}
 
 }

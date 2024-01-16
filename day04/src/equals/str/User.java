@@ -6,6 +6,6 @@ public class User {
 	
 	public User(String upw) {
 		pw = upw;
-		
 	}
+
 }
