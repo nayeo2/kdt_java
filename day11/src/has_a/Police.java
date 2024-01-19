@@ -1,8 +1,7 @@
 package has_a;
 
 public class Police {
-
-	// 멤버변수로 Gun을 가집니다.
+	// 상속 없이 Gun 기능을 사용하기 위해 멤버변수로 Gun도 가집니다.
 	private Gun gun;
 	private String name;
 	private int height;
@@ -14,7 +13,7 @@ public class Police {
 	}
 	
 	public void shoot() {
-		this.gun.shoot();// 들고있던 총 격발
+		this.gun.shoot();// 들고 있던 총 격
 	}
 	
 	public void showStatus() {
@@ -22,5 +21,5 @@ public class Police {
 		System.out.println("이름 : " + this.name);
 		System.out.println("키 : " + this.height);
 	}
-}
 
+}

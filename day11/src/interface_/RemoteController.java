@@ -1,7 +1,7 @@
 package interface_;
 
 public interface RemoteController {
-	// 최대 배터리량, 최소 배터리량 상수로 지정
+	// 최대 배터리량, 최소 배터리량을 상수로 지정
 	int MAX_BATTERY = 100;
 	int MIN_BATTERY = 0;
 	
@@ -11,5 +11,4 @@ public interface RemoteController {
 	public void turnOff();
 	
 	public void showStatus();
-
 }

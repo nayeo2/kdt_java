@@ -5,4 +5,8 @@
     <fullyQualifiedTypeName name="class_.BasketballPlayerMain"/>
     <fullyQualifiedTypeName name="class_.BasketballPlayer"/>
     <fullyQualifiedTypeName name="override.Programmer"/>
+    <fullyQualifiedTypeName name="java.rmi.Remote"/>
+    <fullyQualifiedTypeName name="interface_.TVRemoteController"/>
+    <fullyQualifiedTypeName name="interface_.RemoteController"/>
+    <fullyQualifiedTypeName name="interface_.RobotCleanerRemoteController"/>
 </qualifiedTypeNameHistroy>

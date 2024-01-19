@@ -1,9 +1,8 @@
 package has_a;
 
 public class Gun {
-	
-	private int bullet;// 총알 개수
-	private String modelName;// 총기 모델명
+	private int bullet; // 총알 갯수
+	private String modelName; // 총기 모델명
 	private String gunNumber; // 총번
 	
 	public Gun(String modelName, String gunNumber) {
@@ -16,8 +15,8 @@ public class Gun {
 		if(this.bullet > 0) {
 			this.bullet--;
 			System.out.println("총을 쐈습니다.");
-		} else {
-			System.out.println("방아쇠를 당겼지만 총알이 없습니다");
+		}else {
+			System.out.println("방아쇠를 당겼지만 총알이 없습니다.");
 		}
 	}
 	public void reload() {
